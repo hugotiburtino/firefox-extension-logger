@@ -1,6 +1,6 @@
 # Firefox-Extension Logger
 
-It logs only if the extension is installed as temporary is reloaded
+It logs only if an extension installed as temporary is reloaded
 
 ## Requirements
 * Allow 'management' at manifest.json
