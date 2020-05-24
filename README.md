@@ -36,3 +36,5 @@ const body = document.getElementsByTagName('body')[0].innerText;
 ```
 
 __Version__: 0.1.0 snapshot
+
+__Note__: the logging is at this version asynchronous, that means, logs with console.log may come first even though they are later on the script
