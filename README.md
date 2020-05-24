@@ -5,7 +5,7 @@ It logs only if the extension is installed as temporary
 ## Requirements
 * Allow 'management' at manifest.json
 * Add bg_logger.help.js as a background script
-* Add logger.js as as content script  
+* Add as logger.js as first content script
 ```
 ...
   "permissions": [
