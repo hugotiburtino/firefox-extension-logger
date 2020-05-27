@@ -4,7 +4,7 @@ It logs only if an extension installed as temporary is reloaded
 
 ## Requirements
 * Allow 'management' at manifest.json
-* Add bg_logger.help.js as a background script
+* Add logger_bg_util.js as a background script
 * Add as logger.js as first content script
 ```
 ...
@@ -12,7 +12,7 @@ It logs only if an extension installed as temporary is reloaded
     "management"
   ],
   "background": {
-    "scripts": ["bg_logger_help.js"]
+    "scripts": ["logger_bg_util.js"]
   },
   "content_scripts": [
     {
